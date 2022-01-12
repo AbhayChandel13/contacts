@@ -2,6 +2,7 @@
   "name": "myfirst",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://AbhayChandel13.github.io/contacts",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
@@ -12,6 +13,7 @@
     "axios": "^0.24.0",
     "bootstrap": "^5.1.3",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.3.0",
@@ -20,6 +22,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "deploy":"npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
